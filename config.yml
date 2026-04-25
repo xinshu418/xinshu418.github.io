@@ -50,7 +50,7 @@ about:
       institution: "上海交通大学"
       period: "2009-2013"
     - degree: "理学硕士学位 - 应用数学"
-      institution: "南京农业大学"
+      institution: "理学院，南京农业大学"
       period: "2006-2009"
     - degree: "工学学士学位 - 农业机械化及其自动化"
       institution: "佳木斯大学"
@@ -76,6 +76,12 @@ publications:
     year: 2022
     pdf: "#" # 填写 PDF 链接或为空
     code: "#" # 填写代码仓库链接或为空
+
+  - title: "Adversarial supervised contrastive feature learning for cross-modal hashing"
+    authors: "Xin Shu,Yikang Guo,Shougang Ren"
+    venue: "Pattern Recognition"
+    year: 2026
+
   - title: "Scalable multi-label canonical correlation analysis for cross-modal retrieval"
     authors: "Xin Shu,Guoying Zhao"
     venue: "Pattern Recognition"
