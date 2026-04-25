@@ -70,6 +70,7 @@ research:
 
 # 发表论文：按条目列出。要删除论文，移除对应对象；要添加论文，追加对象。
 publications:
+
   - title: "Gaussian similarity preserving for cross-modal hashing"
     authors: "Liuyin Lin, Xin Shu"
     venue: "Neurocomputing"
@@ -81,6 +82,8 @@ publications:
     authors: "Xin Shu,Yikang Guo,Shougang Ren"
     venue: "Pattern Recognition"
     year: 2026
+    pdf: "#"
+    code: "#"
 
   - title: "Scalable multi-label canonical correlation analysis for cross-modal retrieval"
     authors: "Xin Shu,Guoying Zhao"
