@@ -87,20 +87,18 @@ publications:
     pdf: "#" # 填写 PDF 链接或为空
     code: "#" # 填写代码仓库链接或为空
 
-  - title: "Adversarial supervised contrastive feature learning for cross-modal hashing"
-    authors: "Xin Shu,Yikang Guo,Shougang Ren"
-    venue: "Pattern Recognition"
-    year: 2026
-    pdf: "#"
-    code: "#"
-
   - title: "Scalable multi-label canonical correlation analysis for cross-modal retrieval"
     authors: "Xin Shu,Guoying Zhao"
     venue: "Pattern Recognition"
     year: 2021
     pdf: "#" # 填写 PDF 链接或为空
     code: "#" # 填写代码仓库链接或为空
-
+  - title: "Cross-view hashing via supervised deep discrete matrix factorization"
+    authors: "Yingjun Xiong, Yan Xu, Xin Shu"
+    venue: "Pattern Recognition"
+    year: 2020
+    pdf: "#" # 填写 PDF 链接或为空
+    code: "#" # 填写代码仓库链接或为空
 
 
 # 项目或资助信息
