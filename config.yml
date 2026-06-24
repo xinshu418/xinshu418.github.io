@@ -36,7 +36,7 @@ hero:
 # 关于我：可填写纯文本或支持简单 Markdown
 about:
   description: |
-    我是南京农业大学教师，研究兴趣主要包括深度学习、生成模型和跨模态推理。
+    我是南京农业大学人工智能学院教师，研究兴趣主要包括深度学习、生成模型和跨模态推理。
   tech_stack:
     - "Python"
     - "PyTorch"
@@ -55,6 +55,9 @@ about:
     - degree: "工学学士学位 - 农业机械化及其自动化"
       institution: "佳木斯大学"
       period: "2002-2006"
+    - degree: "高中 - "
+      institution: "安徽省绩溪中学"
+      period: "1999-2002"
 
 # 研究方向：页面以卡片形式渲染，每项为一个对象
 research:
@@ -70,6 +73,12 @@ research:
 
 # 发表论文：按条目列出。要删除论文，移除对应对象；要添加论文，追加对象。
 publications:
+  - title: "Adversarial supervised contrastive feature learning for cross-modal retrieval"
+    authors: "Xin Shu Yikang Guo, Shou Gang Ren"
+    venue: "Pattern Recognition"
+    year: 2026
+    pdf: "#" # 填写 PDF 链接或为空
+    code: "#" # 填写代码仓库链接或为空
 
   - title: "Gaussian similarity preserving for cross-modal hashing"
     authors: "Liuyin Lin, Xin Shu"
