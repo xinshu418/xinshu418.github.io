@@ -3,7 +3,7 @@
 site:
   title: "舒欣"
   description: "专注于计算机视觉和机器学习的学术研究"
-  url: "https://yourusername.github.io" # 站点完整 url
+  url: "https://xinshu418.github.io" # 站点完整 url
   baseurl: "" # 如果在子目录下托管，填写子目录
 
 # 导航：按顺序显示。要删除导航项，移除对应对象；要新增，追加一个对象。
@@ -30,7 +30,7 @@ hero:
       url: "mailto:xinshu@njau.edu.cn"
       style: "primary" # 可用值: primary / outline
     - label: "GitHub"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/xinshu418"
       style: "outline"
 
 # 关于我：可填写纯文本或支持简单 Markdown
@@ -114,14 +114,14 @@ contact:
   email: "xinshu@njau.edu.cn"
   address: "南京农业大学"
   social:
-    github: "https://github.com/yourusername"
-    linkedin: "https://www.linkedin.com/in/yourlinkedin"
-    twitter: "https://twitter.com/yourtwitter"
-    google_scholar: "https://scholar.google.com/yourid"
+    github: "https://github.com/xinshu418"
+    linkedin: "" # 暂无链接时留空，页面会自动隐藏
+    twitter: ""
+    google_scholar: ""
 
 # 页脚
 footer:
-  copyright: "© 2025 舒欣. 保留所有权利."
+  copyright: "© 2026 . 保留所有权利."
 
 # 外观配置（可选）
 appearance:
@@ -140,4 +140,5 @@ show:
 
 # 使用说明：
 # - 要增加/删除页面内容，编辑对应节点（例如在 publications 下添加/删除对象）。
-# - 如果打算让页面动态加载配置，请在页面中通过 JavaScript fetch 访问此文件（例如 fetch('/config.yml') 并解析为对象）。
+# - 页面会自动加载此文件；保存并刷新网页即可看到修改结果。
+# - 链接留空或填写 # 时，对应按钮不会显示。

@@ -1,76 +1,42 @@
+# 舒欣的个人学术主页
 
-# 您的姓名 - 计算机视觉与机器学习研究员
+这是一个由 `config.yml` 驱动的静态个人主页，可直接部署到 GitHub Pages。
 
-## 👋 关于我
+## 修改网站内容
 
-研究兴趣包括深度学习、跨模态检索。
+日常更新只需要编辑 `config.yml`：
 
-## 🔬 研究方向
+- `site`：网站标题、描述和正式网址
+- `nav`：导航菜单
+- `hero`：姓名、研究方向、头像和顶部按钮
+- `about`：个人简介、技术栈和教育背景
+- `research`：研究方向卡片
+- `publications`：论文列表
+- `projects`：项目列表
+- `contact`：邮箱、地址和社交主页
+- `appearance`：渐变色和强调色
+- `show`：控制各板块是否显示
 
-### 计算机视觉
-- 图像分类与识别
-- 目标检测与跟踪
-- 语义分割与实例分割
-- 三维视觉重建
+链接留空或填写 `#` 时，对应按钮会自动隐藏。修改完成后提交 `config.yml`，GitHub Pages 会直接使用新内容，无需构建。
 
-### 机器学习
-- 深度学习架构设计
-- 生成对抗网络(GAN)
-- 自监督学习
-- 模型压缩与优化
+## 本地预览
 
-## 📚 发表论文
+页面通过浏览器读取 `config.yml`。由于浏览器的本地文件安全策略，不能直接双击 `index.html` 预览。
 
-### 期刊论文
-1. **您的姓名**, 合作者. "论文标题". 期刊名称, 年份.
-2. **您的姓名**, 合作者. "论文标题". 期刊名称, 年份.
+Windows 用户可以直接双击 `preview.bat`，它会启动本地服务器并打开页面。
 
-### 会议论文
-1. **您的姓名**, 合作者. "论文标题". 会议名称, 年份.
+也可以在项目目录手动运行：
 
-## 💻 技术栈
+```powershell
+python -m http.server 8000
+```
 
-### 编程语言
-- **Python** (主要)
-- C#
-- JavaScript
-- Lua
+然后访问 <http://localhost:8000>。
 
-### 深度学习框架
-- PyTorch
-- Matlab
+## 文件结构
 
-### 计算机视觉库
-- OpenCV
-- PIL/Pillow
-- scikit-image
-
-## 🚀 项目展示
-
-### [项目名称 1]
-项目描述：基于深度学习的图像分类系统...
-- 技术：PyTorch, ResNet, Data Augmentation
-- [Demo链接] | [代码仓库]
-
-### [项目名称 2]
-项目描述：实时目标检测框架...
-- 技术：YOLO, OpenCV, CUDA
-- [Demo链接] | [代码仓库]
-
-## 📊 GitHub 统计
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
-
-## 📫 联系方式
-
-- 📧 邮箱：your.email@example.com
-- 🌐 个人主页：https://yourusername.github.io
-- 💼 LinkedIn：[链接]
-- 🐦 Twitter：[链接]
-
-## 🏆 学术服务
-
-- 期刊审稿人：某某期刊
-- 程序委员会委员：某某会议
+```text
+index.html   页面结构与样式
+app.js       配置加载和页面渲染逻辑
+config.yml  网站内容与外观配置
+```
